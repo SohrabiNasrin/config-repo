@@ -1,0 +1,16 @@
+spring:
+ thymeleaf:
+   cache: false
+ datasource:
+   url: jdbc:postgresql://localhost:5432/readinglistdb
+   username: postgres
+   password: "{cipher}282fa4d79433382ca86ef09ce8e1cfe88db0bf076986c46645d70e7af87da43d"
+ jpa:
+   database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+security:
+  user:
+    name: Nasrin
+    password: "{cipher}e69320d6ea7dcc9cc4ecae52843fe31b80a9088dfb22e5bc02abe00991824933"
+
